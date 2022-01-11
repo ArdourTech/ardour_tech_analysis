@@ -71,8 +71,6 @@ print("This line voids standards");
 
 ### Project Level
 
-### Project Level
-
 To suppress a specific lint rule for an entire project, modify `analysis_options.yaml`:
 
 ```yaml
