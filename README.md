@@ -55,7 +55,7 @@ To suppress a specific lint rule for a specific line of code, use an `ignore` co
 
 ```dart
 // ignore: prefer_single_quotes
-class A {}
+print("Ignoring standard for this scenario. 'As an Example'");
 ```
 
 ### File Level
@@ -65,9 +65,8 @@ To suppress a specific lint rule of a specific file, use an `ignore_for_file` co
 ```dart
 // ignore_for_file: prefer_single_quotes
 
-class A {}
-
-class B {}
+print('This line is fine');
+print("This line voids standards");
 ```
 
 ### Project Level
