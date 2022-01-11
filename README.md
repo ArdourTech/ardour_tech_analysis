@@ -9,6 +9,10 @@ To use the linting options, add a dependency in your `pubspec.yaml`:
 
 ```yaml
 dev_dependencies:
+  # Add Lints for Dart
+  lints: '>=1.0.1 <2.0.0'
+  # Add Flutter Lints for Flutter
+  flutter_lints: '>=1.0.0 <2.0.0'
   ardour_tech_analysis:
     git:
       url: https://github.com/ardourtech/dart_analysis.git
